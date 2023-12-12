@@ -79,3 +79,114 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+/* nth-of-type(1) */
+.color {
+  background-color: plum;
+}
+
+/* nth-of-type(2) */
+.blur {
+  filter: blur(2px);
+}
+
+/* nth-of-type(3) */
+.jumper {
+  animation-name: jump2;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: .8s;
+  animation-iteration-count: 3;
+  background-color: palevioletred;
+}
+
+@keyframes jump2 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-5rem) rotate(10deg);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+/* nth-of-type(4) */
+.rotate{
+  rotate: 20deg;
+  background-color: teal;
+}
+
+/* nth-of-type(5) */
+.flip{
+  rotate: 180deg;
+  background-color: peachpuff;
+  color: purple;
+}
+
+/* nth-of-type(6) */
+.fix{
+  rotate: -30deg;
+  background-color: seagreen;
+}
+
+/* nth-of-type(7) */
+.spin{
+  animation-name: spin;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: .5s;
+  animation-iteration-count: 4;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  11% {
+    transform: rotate(40deg);
+  }
+  22% {
+    transform: rotate(80deg);
+  }
+  33% {
+    transform: rotate(120deg);
+  }
+  44% {
+    transform: rotate(160deg);
+  }
+  55% {
+    transform: rotate(200deg);
+  }
+  66% {
+    transform: rotate(240deg);
+  }
+  77% {
+    transform: rotate(280deg);
+  }
+  88% {
+    transform: rotate(320deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* nth-of-type(8) */
+
+
+/* nth-of-type(9) */
+
+
+/* nth-of-type(10) */
+
