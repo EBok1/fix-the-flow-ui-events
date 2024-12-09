@@ -82,3 +82,9 @@ interFace.addEventListener('mousemove', faces)
 function faces() { 
   interFace.classList.toggle('color')
 }
+
+let Events = document.querySelector('a:nth-of-type(11)')
+Events.addEventListener('click', eventFunction)
+function eventFunction() { 
+  Events.classList.toggle('color')
+}
