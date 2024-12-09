@@ -4,7 +4,7 @@ interaction.addEventListener('click', jumpHandler)
 interaction.addEventListener('animationend', jumpHandler)
 
 function jumpHandler() {
-  interaction.classList.toggle('jump')
+  interaction.classList.toggle('jump') 
 }
 
 let changeColor = document.querySelector('a:nth-of-type(1)')
@@ -82,4 +82,3 @@ interFace.addEventListener('mousemove', faces)
 function faces() { 
   interFace.classList.toggle('color')
 }
-
